@@ -1,0 +1,34 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* generics */
+body {
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* specifiche */
+.logo-header{
+    line-height: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.logo-title{
+    display: inline-block;
+}
