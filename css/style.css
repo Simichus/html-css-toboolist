@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 10px;
+    padding-bottom: 5%;
     border-radius: 20px;
 }
 
@@ -31,15 +32,18 @@ body {
 .logo-header{
     line-height: 80px;
     height: 80px;
+    padding-left: 20px;
     background-color: white;
 }
 
 #logo{
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 .logo-title{
     display: inline-block;
+    font-size: 2.5em;
+    margin-top: auto;
 }
 
 .button{
@@ -62,8 +66,10 @@ body {
 
 }
 #separation-row{
-    background-color: grey;
-}
+        height: 1px;
+        background-color: lightgray;
+        border: none;
+    }
 
 .main-body{
     margin-top: 20px;
@@ -126,4 +132,24 @@ body {
 
 .editorial{
     background-color: rgb(54, 122, 248);
+}
+
+.q1-goals{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: rgb(61, 145, 61);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: rgb(113, 170, 90);
 }
